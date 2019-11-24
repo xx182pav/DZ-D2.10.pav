@@ -2,7 +2,7 @@ from bottle import Bottle, request
 import sentry_sdk  
 from sentry_sdk.integrations.bottle import BottleIntegration
 
-sentry_sdk.init(dsn="Enter yourSDN",integrations=[BottleIntegration()])
+sentry_sdk.init(dsn="Enter your SDN",integrations=[BottleIntegration()])
 
 app = Bottle()
     
